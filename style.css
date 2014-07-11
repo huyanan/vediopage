@@ -1,0 +1,197 @@
+@charset "utf-8";
+body {
+	background: #67686d;
+	min-width: 960px;
+	overflow: hidden;
+	padding: 0 !important;
+	margin: 0px;
+	min-width: 960px;
+	position: relative;
+	height: auto;
+	min-height: 100%
+}
+h1,p{
+	margin: 0px;
+}
+.prev, .next {
+	background: url(http://s.stu.126.net/res/images/courseLearn.png?88ba4799906905a1cbec0d96219999c2) no-repeat 4449px 4449px
+}
+.left-content {
+	position: absolute;
+	right: 300px;
+	top: 0px;
+	left: 0px;
+	bottom: 0px
+}
+.back {
+	z-index: 101;
+	position: absolute;
+	top: 13px;
+	left: 0;
+	display: block;
+	width: 106px;
+	height: 29px;
+	font-size: 12px;
+	line-height: 24px;
+	color: #484848;
+	text-indent: 22px;
+	background-position: -16px -375px;
+}
+.prev {
+	position: absolute;
+	left: 112px;
+	display: block;
+	width: 60px;
+	height: 32px;
+	z-index: 101;
+	top: -1px;
+	background-position: -7px -730px
+}
+.prev:hover {
+	background-position: -7px -772px
+}
+.next {
+	position: absolute;
+	position: absolute;
+	left: 112px;
+	display: block;
+	width: 60px;
+	height: 32px;
+	z-index: 101;
+	bottom: -1px;
+	background-position: -70px -723px
+}
+.next:hover {
+	background-position: -70px -765px
+}
+
+h1{
+	position: absolute;
+	left: 50%;
+	top: 20px;
+	margin-left: -163px;
+}
+
+.course-box {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 100
+}
+#mycarousel{
+	position: absolute;
+	z-index: 102;
+}
+.curt-course {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px
+}
+.course-title {
+	position: absolute;
+	top: 50px;
+	left: 30px
+}
+.learn-tt {
+	bottom: 40px;
+	top: 95px;
+	left: 20px;
+	right: 20px;
+	position: absolute;
+	z-index: 90;
+	-webkit-box-shadow: 0 1px 5px #303035;
+	-moz-box-shadow: 0 1px 5px #303035;
+	box-shadow: 0 1px 5px #303035
+}
+.vedio-box {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	bottom: 36px;
+	z-index: 101;
+	text-align: center;
+	overflow: auto;
+	background-color: #525050
+}
+.learn-action {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 102;
+	padding-left: 12px
+}
+.carousel-axle {
+	height: 100%;
+	width: 4px;
+	border-right: 1px solid #76767A;
+	background-color: #333746;
+	left: 139px;
+	position: absolute;
+	top: 0;
+	z-index: 98
+}
+.course-logo {
+	width: 429px;
+	height: 124px;
+	background: url(../res/images/bg/courseLearn_logo.png?410883789a911dde996e9737ab19a95f) no-repeat;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -214px;
+	margin-top: -62px
+}
+
+/**
+ * 定制走马灯主题
+ */
+.course-box .jcarousel-skin-tango .jcarousel-container{
+	background: none;
+	border: none;
+}
+.course-box .jcarousel-skin-tango .jcarousel-container-vertical{
+	padding:0px;
+	width: 100%;
+	height: 100%;
+}
+.course-box .jcarousel-skin-tango .jcarousel-clip-vertical{
+
+	width: 100%;
+	height: 100%;
+}
+.course-box .jcarousel-skin-tango .jcarousel-clip-vertical .jcarousel-list{
+	width: 100%;
+	height: 100%;
+}
+.course-box .jcarousel-skin-tango .jcarousel-item{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.course-box ul.jcarousel{
+	overflow: visible;
+}
+/**
+ * 隐藏自带的上下控制按钮
+ */
+.jcarousel-prev,
+.jcarousel-next{
+	display: none !important;
+}
+/* .course-box .curt-box{
+	width: 100%;
+	height: 100%;
+} */
+
+
+.right-content{
+	position: absolute;
+right: 0px;
+width: 300px;
+height: 100%;
+overflow: auto;
+}
