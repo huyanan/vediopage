@@ -173,7 +173,7 @@ h1{
 	height: 100%;
 }
 .course-box ul.jcarousel{
-	overflow: visible;
+	overflow: visible !important;
 }
 /**
  * 隐藏自带的上下控制按钮

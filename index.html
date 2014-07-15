@@ -7,29 +7,29 @@
     <!--
     jQuery library
     -->
-    <script type="text/javascript" src="jcarousel_zh/lib/jquery-1.2.3.pack.js"></script>
+    <script type="text/javascript" src="jcarousel-0.2.9/lib/jquery.js"></script>
     <!--
     jCarousel library
     -->
-    <script type="text/javascript" src="jcarousel_zh/lib/jquery.jcarousel.pack.js"></script>
+    <script type="text/javascript" src="jcarousel-0.2.9/lib/jquery.jcarousel.min.js"></script>
     <!--
     jCarousel core stylesheet
     -->
-    <link rel="stylesheet" type="text/css" href="jcarousel_zh/lib/jquery.jcarousel.css" />
+   <!--  <link rel="stylesheet" type="text/css" href="jcarousel-0.2.9/lib/jquery.jcarousel.css" /> -->
     <!--
     jCarousel skin stylesheet
     -->
-    <link rel="stylesheet" type="text/css" href="jcarousel_zh/skins/tango/skin.css" />
+    <link rel="stylesheet" type="text/css" href="jcarousel-0.2.9/skins/tango/skin.css" />
     <script type="text/javascript" src="doT/doT.js"></script>
     <!-- 测试数据 -->
     <script type="text/javascript" src="testjson.js"></script>
     <script id="curtCourse" type="text/x-dot-template">
     <div class="curt-course">
       <p class="course-title">
-      <span class="cs-chapter">章节{{=it.chapter}}</span>
+      <span class="cs-chapter">章节{{=it.index}}</span>
       <span class="cs-period">课时</span>
-      <span class="cs-period-index">{{=it.period}}</span>
-      <span class="cs-cs-name">{{=it.name}}</span>
+      <span class="cs-period-index">{{=it.size}}</span>
+      <span class="cs-cs-name">{{=it.knob.knName}}</span>
       </p>
       <div class="learn-tt">
         <div class="learn-box">
@@ -66,7 +66,7 @@
     </script>
   </head>
   <body>
-    <div class="left-content">
+    <div class="left-content" style="right:0px;">
       <!-- 底层
       1、进度线
       2、背景logo -->
@@ -83,12 +83,12 @@
       <a href="javascript:;" id="course_prev" class="prev"></a>
       <a href="javascript:;" id="course_next" class="next">下一课</a>
       <!-- 课程名称 -->
-      <h1>商业模式选择与创新</h1>
+      <h1 id="course-name"></h1>
       <!-- 三层
       1、视频 -->
       <div class="course-box" class="">
         <ul id="mycarousel" class="jcarousel jcarousel-skin-tango">
-          <li>
+          <!-- <li>
             <div class="curt-course">
               <p class="course-title">
               <span class="cs-chapter">章节1</span>
@@ -106,7 +106,7 @@
                   <a href="javascript:;" class="chapter">章节</a>
                   <a href="javascript:;" class="lecture">讲义</a>
                   <a href="javascript:;" class="tag">标记为完成</a>
-                  <!-- 左边
+                  左边
                   <div class="cs-intro"><i class="icon icon-intro"></i>课时介绍</div>
                   <div class="cs-ref"><i class="icon icon-intro"></i>课时介绍</div>
                   <div class="cs-share"><i class="icon icon-intro"></i>课时介绍</div>
@@ -114,16 +114,16 @@
                   右边
                   <em class="learn-state"><i class="icon icon-yes"></i>已学过</em>
                   <a class="cs-question"><i class="icon icon-intro"></i>课时介绍</a>
-                  <a class="cs-important"><i class="icon icon-intro"></i>课时介绍</a> -->
+                  <a class="cs-important"><i class="icon icon-intro"></i>课时介绍</a>
                 </div>
               </div>
             </div>
-          </li>
+          </li> -->
         </ul>
         
       </div>
     </div>
-    <div class="right-content">
+    <div class="right-content" style="width:0px;">
       <div class="control-panle">
         <ul id="chapter-list" class="chapter-list">
           <!-- <li class="chapter-item">

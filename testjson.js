@@ -1,5 +1,5 @@
 //假数据
-var sourseData = [{
+/*var sourseData = [{
   "chapter": "1",
   "period": 5,
   "name": "css控制div显示"
@@ -35,7 +35,7 @@ var sourseData = [{
   "chapter": "9",
   "period": 10,
   "name": "肯德基"
-}];
+}];*/
 var chapterData = {
   cid: '123',
   cname: '商业模式选择与创新',
@@ -90,28 +90,28 @@ var chapterData = {
           knName: '汤和松：如何面对同行竞争',
         }, {
           index:5,
-          knId: '0541848916',
+          knId: '75',
           knName: '汤和松：核心业务与渠道畅通',
         }, {
           index:6,
-          knId: '0541848916',
+          knId: '45745',
           knName: '雷赤锋：创业要想清楚方向和行业',
         }, {
           index:7,
-          knId: '0541848916',
+          knId: '3456567',
           knName: '雷赤锋：电商行业模式与市场变迁',
         }, {
           index:8,
-          knId: '0541848916',
-          knName: '刘锦程：如何面对同行竞争',
+          knId: '23745',
+          knName: '刘锦程：产品市场定位与组织模式',
         }, {
           index:9,
-          knId: '0541848916',
-          knName: '刘锦程：如何面对同行竞争',
+          knId: '8456456',
+          knName: '刘锦程：战略关键点包括方向、效益等',
         }, {
           index:10,
-          knId: '0541848916',
-          knName: '刘锦程：如何面对同行竞争',
+          knId: '615617',
+          knName: '刘锦程：企业定位要点',
         }
 
       ]
